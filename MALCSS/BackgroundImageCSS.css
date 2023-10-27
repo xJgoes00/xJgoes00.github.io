@@ -1,0 +1,15 @@
+.list-table .list-table-data:hover{
+	background-image: url(https://i.imgur.com/apkc9ed.jpg);
+	background-size: cover;
+	}
+	.list-table .list-table-data:hover      .data.number,
+	.list-table .list-table-data:hover a, 
+	.list-table .list-table-data:hover{
+		--bg: black !important;
+		--text: white;
+		--text-h: white;
+		--text-dim: white;
+		--text-dim-h: white;
+		--text-dark: white;
+		--btn-bg: black;
+	}
