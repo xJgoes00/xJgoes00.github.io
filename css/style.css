@@ -1,33 +1,33 @@
 body {
-  background-color: #000;
-  color: whitesmoke;
+    background-color: #000;
+    color: whitesmoke;
 }
 
 h1 {
-  text-align: center;
+    text-align: center;
 }
 
 h3,
 li {
-  text-align: justify;
-  margin: 0px 25% 0px 25%;
+    text-align: justify;
+    margin: 0px 25% 0px 25%;
 }
 
 a {
-  display: inline-block;
-  transition: 0.3s;
-  font-weight: bold;
-  text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 #links {
-  text-decoration: none;
-  padding: 0 5px;
-  transition: all 0.9s;
-  color: #fff;
+    text-decoration: none;
+    padding: 0 5px;
+    transition: all 0.9s;
+    color: #fff;
 }
