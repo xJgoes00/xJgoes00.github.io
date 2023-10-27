@@ -1,15 +1,31 @@
-.list-table .list-table-data:hover{
-	background-image: url(https://i.imgur.com/apkc9ed.jpg);
-	background-size: cover;
+.list-table .list-table-data:hover {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
 	}
-	.list-table .list-table-data:hover      .data.number,
-	.list-table .list-table-data:hover a, 
-	.list-table .list-table-data:hover{
-		--bg: black !important;
-		--text: white;
-		--text-h: white;
-		--text-dim: white;
-		--text-dim-h: white;
-		--text-dark: white;
-		--btn-bg: black;
+
+	50% {
+		background-position: 100% 50%;
 	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.list-table .list-table-data:hover .data.number,
+.list-table .list-table-data:hover a,
+.list-table .list-table-data:hover {
+	--bg: black !important;
+	--text: white;
+	--text-h: white;
+	--text-dim: white;
+	--text-dim-h: white;
+	--text-dark: white;
+	--btn-bg: black;
+}
