@@ -1,0 +1,15 @@
+body *, :not(*) {
+cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), url(https://i.imgur.com/j9ZWzyT.png), auto !important;
+}
+
+a:hover,
+.data.tags span a,
+.data.tags span a:hover,
+.fa:hover,.data.progress span:hover,.list-table .list-table-data .data.score:hover,
+.list-table .list-table-data .data.licensor a:hover,.list-table .list-table-data .data.score .link:before,
+.data.progress span a:before,.list-table .list-table-data .data.season a:hover,.list-item .data.studio:hover *,
+.list-table .list-table-data .data.title .link:hover,.list-table-data .data.tags:hover,.list-table .list-table-data .tags .edit:hover,
+.list-table .list-table-data .data.title .edit:hover a,.list-table .list-table-data .data.title .add:hover a{
+
+cursor: url(https://dl.dropboxusercontent.com/s/q3y753hi4kqklz7/red.cur), url(https://i.imgur.com/VNMuCD1.png), auto !important;
+}
