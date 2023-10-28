@@ -225,7 +225,7 @@ a:hover {
     color: var(--banner-text);
     font: bold 60px/60px Oswald;
     text-align: left;
-    letter-spacing: 15px;
+    letter-spacing: normal;
     text-shadow: 1px 4px 7px var(--banner-text-shadow);
     text-transform: none;
     white-space: pre;
