@@ -248,7 +248,7 @@ a:hover {
     }
 
     100% {
-        letter-spacing: 15px;
+        letter-spacing: normal;
         opacity: 1;
         animation-timing-function: cubic-bezier(0, 0, .75, 1)
     }
