@@ -1,0 +1,15 @@
+@\import "https://xjgoes00.github.io/MALCSS/ValerioDarkCSS.css";
+
+@\import "https://xjgoes00.github.io/MALCSS/CursorCSS.css";
+
+@\import "https://xjgoes00.github.io/MALCSS/SakuraCSS.css";
+
+@\import "https://xjgoes00.github.io/MALCSS/BackgroundImageCSS.css";
+
+body {
+    --name: "Jgoes00";
+}
+
+body {
+    --avatar: url(https://i.imgur.com/33BlETF.png);
+}
