@@ -1,0 +1,21 @@
+@\import "https://xjgoes00.github.io/MALCSS/ValerioDarkCSS.css";
+
+@\import "https://xjgoes00.github.io/MALCSS/CursorCSS.css";
+
+@\import "https://xjgoes00.github.io/MALCSS/Jgoes00DarkCSS.css";
+
+
+body { --name: "Jgoes00"; }
+body { --avatar: url(https://i.imgur.com/33BlETF.png); }
+
+
+
+
+.list-table .list-table-data:hover .data.number,
+.list-table .list-table-data:hover a,
+.list-table .list-table-data:hover {
+    --text: hsl(0, 100%, 50%);
+    --text-dim: blue;
+    --text-dim-h: white;
+    --btn-bg: white;
+}
